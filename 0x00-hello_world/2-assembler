@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S -o main.c helloworld.c \n
+gcc -S -o main.c main.s > $CFILE \n
