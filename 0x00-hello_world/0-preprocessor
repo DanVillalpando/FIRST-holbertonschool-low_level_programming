@@ -1,2 +1,2 @@
 #!/bin/bash
-gpp -c CFILE [$CFILE > main.c] \n
+cpp [$CFILE > main.c] \n
