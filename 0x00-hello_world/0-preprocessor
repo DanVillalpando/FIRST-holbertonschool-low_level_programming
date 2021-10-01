@@ -1,2 +1,2 @@
 #!/bin/bash
-gpp [$CFILE >> main.c]
+gpp -c [$CFILE >> main.c] \n
