@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -Wall -g -c hello.c
+gcc -Wall -g -c hello.c \n 
