@@ -1,2 +1,2 @@
 #!/bin/bash
-cpp [$CFILE > main.c] \n
+gcc -E $CFILE > c \n
