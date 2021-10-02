@@ -9,7 +9,7 @@ while (lettr <= 'z')
 putchar(lettr);
 lettr++;
 }
-putchar (lettr != q || lettr != e);
+putchar (lettr != 'q' || lettr != 'e');
 /*Alll except q and e*/
 return (0);
 /*Return zero*/
