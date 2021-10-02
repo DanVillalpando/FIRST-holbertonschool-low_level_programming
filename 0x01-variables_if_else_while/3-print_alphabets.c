@@ -3,8 +3,7 @@
 
 int main/*Again our main function*/(void)
 {
-char lettr = 'a';
-char Clettr = 'A';
+char lettr = 'a', Clettr = 'A';
 while (lettr <= 'z')
 {
 putchar(lettr);
