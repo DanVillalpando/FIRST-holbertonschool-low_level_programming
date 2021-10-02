@@ -1,0 +1,21 @@
+#include <stdio.h>
+/*Same simple header*/
+
+int main/*Again our main function*/(void)
+{
+char lettr = 'a';
+char Clettr = 'A';
+while (lettr <= 'z')
+{
+putchar(lettr);
+lettr++;
+}
+while (Clettr <= 'Z')
+{
+putchar(Clettr);
+Clettr++;
+}
+putchar(lettr, Clettr);
+/*Printing Caps and lower*/
+return (0);
+}
