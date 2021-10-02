@@ -9,7 +9,7 @@ while (lettr <= 'z')
 putchar(lettr);
 lettr++;
 }
-putchar(lettr \n);
+putchar(lettr);
 /*Only printing the alphabet*/
 return (0);
 /*Return zero*/
