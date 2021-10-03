@@ -6,7 +6,7 @@ int main/*Same main*/(void)
 char lettr = 'a';
 while (lettr <= 'z')
 {
-for (lettr != 'e' && lettr != 'q')
+for (lettr <= 'z', lettr != 'e' && lettr != 'q')
 {
 putchar(lettr);
 lettr++;
