@@ -9,7 +9,7 @@ while (rttel <= 'a')
 putchar(rttel);
 rttel--;
 }
-putchar(rttel);
+putchar('\n');
 /*Now on reverse*/
 return (0);
 /*Return zero*/
