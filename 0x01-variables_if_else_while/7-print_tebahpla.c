@@ -4,7 +4,7 @@
 int main/*function witn void*/(void)
 {
 char rttel = 'z';
-while (rttel <= 'a')
+while (rttel >= 'a')
 {
 putchar(rttel);
 rttel--;
