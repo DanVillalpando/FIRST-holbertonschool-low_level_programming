@@ -3,10 +3,10 @@
 
 int main/*function with void*/(void)
 {
-char bse = '0';
-while (bse <= 0xf0)
+unsigned char bse = '0';
+while (bse <= 16)
 {
-putchar(bse);
+putchar(bse0xf0);
 bse++;
 }
 putchar('\n');
