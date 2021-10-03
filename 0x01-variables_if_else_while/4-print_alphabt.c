@@ -6,8 +6,11 @@ int main/*Same main*/(void)
 char lettr = 'a';
 while (lettr <= 'z')
 {
-putchar(lettr != 'e' || lettr != 'q');
+for (lettr != 'e' || lettr != 'q')
+{
+putchar(lettr);
 lettr++;
+}
 }
 putchar('\n');
 /*Alll except q and e*/
