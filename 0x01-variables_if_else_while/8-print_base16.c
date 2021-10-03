@@ -4,9 +4,9 @@
 int main/*function with void*/(void)
 {
 unsigned char bse = '0';
-while (bse <= 16)
+while (bse <= 0fx)
 {
-putchar(bse0xf0);
+putchar(bse);
 bse++;
 }
 putchar('\n');
