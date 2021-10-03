@@ -9,7 +9,7 @@ while (bse <= 0xf0)
 putchar(bse);
 bse++;
 }
-putchar(bse);
+putchar('\n');
 /*Printin on hexadecimal*/
 return (0);
 /*Return zero*/
