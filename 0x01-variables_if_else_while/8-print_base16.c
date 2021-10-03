@@ -4,7 +4,7 @@
 int main/*function with void*/(void)
 {
 unsigned char bse = '0';
-while (bse <= 0fx)
+while (bse <= 16x)
 {
 putchar(bse);
 bse++;
