@@ -3,7 +3,7 @@
 
 int main/*function with void*/(void)
 {
-unsigned char bse = '0';
+char bse = '0';
 while (bse <= 0xf0)
 {
 putchar(bse);
