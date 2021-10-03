@@ -14,7 +14,6 @@ while (Clettr <= 'Z')
 putchar(Clettr);
 Clettr++;
 }
-putchar(lettr, Clettr);
 /*Printing Caps and lower*/
 return (0);
 }
