@@ -3,13 +3,13 @@
 
 int main/*Main of the function*/(void)
 {
-int numb = '0';
+char numb = '0';
 while (numb <= '9')
 {
-printf(numb);
+printf("%c");
 numb++;
 }
-printf('\n');
+printf("\n");
 /*Just prints numbers 0 to 9*/
 return (0);
 /*Return zero*/
