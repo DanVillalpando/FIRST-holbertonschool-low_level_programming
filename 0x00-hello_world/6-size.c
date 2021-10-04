@@ -1,20 +1,21 @@
 #include <stdio.h>
-/*This program prints the size of various types*/
+/*One header*/
 
-int main(void)
+int main/*Main function*/(void)
 {
-/**variables*/
-int c;
-unsigned int i;
-long unsigned int li;
-long long unsigned int ll;
-double f;
-  
-  printf("Size of a char: %c byte(s)\n"), (unsigned char)sizeof((c));
-  printf("Size of an int: %u byte(s)\n"), (unsigned int)sizeof((i));
-  printf("Size of a long int: %lu byte(s)\n"), (unsigned long int)sizeof((li));
-  printf("Size of a long long int: %llu byte(s)\n"), (unsigned long long int)sizeof((ll));
-  printf("Size of a float: %f byte(s)\n"), (double)sizeof((f));
+int c = '';
+int i = '';
+int li = '';
+int lli = '';
+int f = '';
+/*variables*/
 
-  return(0);
+printf("Size of a char: % d byte(s)\n", c);
+printf("Size of an int: % d byte(s)\n", i);
+printf("Size of a long int: % d byte(s)\n", li);
+printf("Size of a long long int: % d byte(s)\n", lli);
+printf("Size of a float: % d byte(s)\n", f);
+/*Prints size*/
+return (0);
+/*Returns zero*/
 }
