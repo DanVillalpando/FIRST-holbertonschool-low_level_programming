@@ -6,7 +6,7 @@ int main/*Main of the function*/(void)
 int numb = '0';
 while (numb <= '9')
 {
-printf("%c");
+printf("%numb");
 numb++;
 }
 printf("\n");
