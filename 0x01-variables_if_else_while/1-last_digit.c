@@ -11,19 +11,19 @@ n = rand() - RAND_MAX / 2;
 for (n < 6 && n != 0)
 {
 printf("Last digit of ", n);
-printf(" is " % d);
+printf(" is $d", n);
 printf(" and is less than 6 and not 0 \n)";
 }
 for (n > 5)
 {
 printf("Last digit of ", n);
-printf(" is " % d);
+printf(" is %d", n);
 printf(" and is greater than 5 0\n");
 }
 for (n == 0)
 {
 printf("Last digit of ", n);
-printf(" is " % d);
+printf(" is %d", n);
 printf(" and is 0\n");
 }
 /* Trial code numer one */
