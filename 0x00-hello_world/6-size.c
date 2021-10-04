@@ -3,11 +3,11 @@
 
 int main/*Main function*/(void)
 {
-int c = '';
-int i = '';
-int li = '';
-int lli = '';
-int f = '';
+int c = '1';
+int i = '4';
+int li = '4';
+int lli = '8';
+int f = '4';
 /*variables*/
 
 printf("Size of a char: % d byte(s)\n", c);
