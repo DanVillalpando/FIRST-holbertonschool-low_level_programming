@@ -3,7 +3,7 @@
 
 int main/*Main of the function*/(void)
 {
-char numb = '0';
+int numb = '0';
 while (numb <= '9')
 {
 printf("%c");
