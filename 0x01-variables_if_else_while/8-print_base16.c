@@ -4,15 +4,15 @@
 int main/*function with void*/(void)
 {
 unsigned char n = '0', l = 'a';
-while (n <= 9)
+while (n <= '9')
 {
 putchar(n);
 n++;
 }
-while (l <= f)
+while (l <= 'f')
 {
 putchar(l);
-l++
+l++;
 }
 putchar('\n');
 /*Printin on hexadecimal*/
