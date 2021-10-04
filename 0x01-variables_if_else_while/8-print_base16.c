@@ -3,11 +3,16 @@
 
 int main/*function with void*/(void)
 {
-unsigned char bse = '0';
-while (bse <= 16x)
+unsigned char n = '0', l = 'a';
+while (n <= 9)
 {
-putchar(bse);
-bse++;
+putchar(n);
+n++;
+}
+while (l <= f)
+{
+putchar(l);
+l++
 }
 putchar('\n');
 /*Printin on hexadecimal*/
