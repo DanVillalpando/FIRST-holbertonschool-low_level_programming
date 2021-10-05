@@ -3,7 +3,8 @@
 
 int main/*Main function*/(void)
 {
-putchar("_putchar\n");
+char c = "_putchar"
+putchar(c \n);
 /*Just print*/
 return (0);
 /*Return zero*/
