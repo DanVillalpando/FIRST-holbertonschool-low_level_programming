@@ -3,7 +3,7 @@
 
 int main/*Main function*/(void)
 {
-putchar(_putchar\n);
+putchar("_putchar\n");
 /*Just print*/
 return (0);
 /*Return zero*/
