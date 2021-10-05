@@ -8,7 +8,7 @@ int main/*Our main function*/(void)
 int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-for (n < 6 && n != 0)
+for (n < 6 || n != 0)
 {
 printf("Last digit of ", n);
 printf(" is $d", n);
