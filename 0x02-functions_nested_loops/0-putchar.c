@@ -7,7 +7,7 @@ char c[8] = "_putchar";
 int s = 0;
 for (int s = 0; s < 8; s++)
 {
-putchar(c[i]);
+putchar(c[s]);
 }
 /*Just print*/
 return (0);
