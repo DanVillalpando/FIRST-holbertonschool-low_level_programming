@@ -4,7 +4,8 @@
 int main/*Main function*/(void)
 {
 char c[8] = "_putchar";
-for (int i = 0; i < 8; í++)
+int s = 0;
+for (int s = 0; s < 8; s++)
 {
 putchar(c[i]);
 }
