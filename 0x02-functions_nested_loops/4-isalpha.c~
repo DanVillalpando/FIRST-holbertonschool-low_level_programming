@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <ctype.h>
+#include "main.h"
+
+int _isalpha(int c);
+int main(void)
+{
+  char c[10];
+  if (isalpha(c))
+    {
+      putchar('1');
+    }
+  else (putchar('0');
+     return (0);
+}
+
+      

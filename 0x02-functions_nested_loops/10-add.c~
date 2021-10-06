@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include "main.h"
+
+int add(int a, int b)
+{
+ return a+b;
+}
+int main (void)
+{
+  int n, number1, number2;
+  n = add(a, b);
+  putchar(n);
+  putchar('\n');
+  return (0);
+}
