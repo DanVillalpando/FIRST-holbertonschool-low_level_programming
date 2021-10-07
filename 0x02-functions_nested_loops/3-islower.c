@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <ctype.h>
 #include "main.h"
 
@@ -9,8 +8,8 @@ int main(void)
   int i;
     for (int i = 0; c[i]; i++)
           {
-            putchar(islower[]);
+           _putchar(islower[]);
           }
-        putchar('\n');
+        _putchar('\n');
     return (0);
 }
