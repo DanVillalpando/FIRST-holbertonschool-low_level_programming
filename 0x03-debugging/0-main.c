@@ -5,7 +5,7 @@
 * Return: 0
 */
 
-int main(void)
+int main/*Main*/(void)
 {
         int i;
 
@@ -13,4 +13,5 @@ int main(void)
         positive_or_negative(i);
 
         return (0);
+	/*Return zero*/
 }
