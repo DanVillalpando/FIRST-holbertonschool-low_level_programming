@@ -24,23 +24,23 @@ int largest_number(int a, int b, int c)
       {
 	largest = c;
       }
-    if (a == b && a == c)
+   else if (a == b && a == c)
       {
 	printf("They´re all equal\n");
+	
       }
-    if (b == c && a == 1)
+   else if (b == c && a == 1)
       {
 	printf("B and C are equal\n");
       }
-    if (a == c && b == 1)
+   else if (a == c && b == 1)
       {
 	printf("A and C are equal\n");
       }
-    if (a == b && c == 1)
+   else if (a == b && c == 1)
       {
 	printf("A and B are equal\n");
       }
-
 
     return (largest);
 }
