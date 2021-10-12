@@ -1,14 +1,16 @@
 #include <stdio.h>
 #include <string.h>
 
-int main (void)
+int _strlen(char *s)
 {
-char* str[16];
-int len;
+ 
+ int longui = 0;
 
-len = strlen(char);
+ while(s[longui] != '\0')
+   {
+     longui++;
+   }
 
-putchar(len);
-
-return (0);
+ return (longui);
+ /*Return longuitud*/  
 }
