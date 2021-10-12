@@ -1,0 +1,19 @@
+#include "main.h"
+#include <stdio.h>
+
+/**
+ *Despcription: prints a string followed by a new line
+ *Return: String
+ **/
+
+void _puts(char *str)
+{
+  int frase = 0;
+
+  while(str[frase] != '\0')
+    {
+      frase++;
+    }
+  putchar('\n');
+  return(frase);
+}
