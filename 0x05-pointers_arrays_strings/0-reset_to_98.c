@@ -3,10 +3,9 @@
 
 int main(void)
 {
-int  n = 98;
-int  *ip;
+int o = 98;
 
-ip = &n;
-
+*n = &o;
+ 
 return (0);
 }
