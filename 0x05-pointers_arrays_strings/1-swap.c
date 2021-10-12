@@ -1,6 +1,6 @@
 #include "main.h"
 
-void swap_int(int *a, int *b)
+void swap_int/*Swap values*/(int *a, int *b)
 {
 int temp = *a;
 *a = *b;
