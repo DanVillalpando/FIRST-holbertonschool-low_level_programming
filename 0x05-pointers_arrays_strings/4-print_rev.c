@@ -3,32 +3,30 @@
 
 void print_rev/*The frase in reverse*/(char *s)
 {
-  int lgo = 0;
-  
+int i, len = 0;
+int lgo = 0;
+char temp;
+
   while (s[lgo] != '\0')
     {
       putchar(lgo);
       lgo++;
     }
+  for (i = 0; i < lgo / 2; i++)
+    {
+      temp = s[i];
+      s[i] = s[lgo - i - 1];
+      s[lgo - i - 1] = temp;
+    }
 }
 
-{
-    //Initializing variable.
-    char str[100];
-    char rev[100];
-    int i, j, len=0;
-    
-    //Accepting input.
-    printf(" Enter a string: ");
-    gets(str);
-    //Calculating length.
-    len = strlen(str);
-    
-    //Reversing and printing the string using for loop. 
-    printf("The reverse string is: ");
-    for(i = len - 1; i >= 0; i--) 
+/*Opcion 2*/
+
+ len = s(str);
+
+ for (i = len - 1; i >= 0; i--) 
     {
-         printf("%c", str[i]);
+     putchar(str[i]);
     }
-    
-    return 0;
+ putchar('\n');
+}
