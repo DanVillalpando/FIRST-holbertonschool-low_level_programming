@@ -8,12 +8,12 @@
 
 void _puts/*print string*/(char *str)/*pointer*/
 {
-  int letra = 0;
+int letra = 0;
 
-  while (str[letra] != '\0')
-    {
-      putchar(str[letra]);
-      letra++;
-    }
-  putchar('\n');
+while (str[letra] != '\0')
+  {
+   putchar(str[letra]);
+   letra++;
+  }
+putchar('\n');
 }
