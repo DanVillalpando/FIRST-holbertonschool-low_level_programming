@@ -8,14 +8,12 @@ char *_strncat/*Almost the same*/(char *dest, char *src, int n)
 
   while (dest[i] != '\0')
     {
-      putchar(dest[i]);
-      i++;
+     i++;
     }
-  while (src[j] != n)
+  while (src[j] != n && src[j] < n)
     {
-      putchar(src[j]);
-      j++;
+     dest[i + j] = src[1];
+     j++;
     }
-  putchar('\n');
-return (0);
+ return (0);
 }

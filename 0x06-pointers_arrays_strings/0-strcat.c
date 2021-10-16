@@ -8,14 +8,12 @@ char *_strcat/*print two strings*/(char *dest, char *src)
 
   while (dest[i] != '\0')
     {
-      putchar(dest[i]);
-      i++;
+     i++;
     }
   while (src[j] != '\0')
     {
-      putchar(src[j]);
+      dest[i + j] = src[j];
       j++;
     }
-  putchar('\n');
-return (0);
+ return (dest);
 }
