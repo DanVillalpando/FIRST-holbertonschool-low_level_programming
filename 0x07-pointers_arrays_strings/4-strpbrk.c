@@ -1,12 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 /**
-*_strspn - returns
-*Description
-*Return:
-**/
-
-unsigned int _strspn/*Only the exact stng*/(char *s, char *accept)
+ *strpbrk - search for string
+ *Description - returns the string youre looking for
+ *Return: the matching string
+ **/
+char *_strpbrk/*Show strng 's' that appear in 'accept'*/(char *s, char *accept)
 {
 	int i = 0;
 	int j = 0;
@@ -28,11 +27,11 @@ unsigned int _strspn/*Only the exact stng*/(char *s, char *accept)
 		  }
 		j++;
 	      }
-	    if (flag == 0)
+	    if (flag == 1)
 	      {
-		return (i);
+		return (s + i);
 	      }
 	    i++;
 	  }
-	return (i);
+	return (NULL);
 }
