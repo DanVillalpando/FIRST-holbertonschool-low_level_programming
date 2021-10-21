@@ -1,14 +1,21 @@
 #include <stdio.h>
 #include "main.h"
 
+int raiz(int n, int i);
+
 int _sqrt_recursion(int n)
 {
-  int x = 0;
-  int r = x * x;
-  
-if (x < 0)
-return (-1);
-if (r == n)
-return (x);
- return (n, i + 1);
+  return (raiz(n, 1));
+}
+int raiz(int n, int i)
+{
+  int e = i * i;
+
+  if (e > n)
+    return (-1);
+
+  if (e == n)
+    return (i);
+
+  return (raiz(n, i + 1));
 }

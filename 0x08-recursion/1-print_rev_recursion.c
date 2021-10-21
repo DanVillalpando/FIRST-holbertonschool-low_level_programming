@@ -9,8 +9,8 @@ void _print_rev_recursion/*Print in reverse*/(char *s)
 
   while (s[letra] != '\0')
     {
-    putchar (letra);
-  letra++;
+      putchar (letra);
+      letra++;
     }
   for (i = 0; i < letra / 2; i++)
     {
@@ -18,4 +18,5 @@ void _print_rev_recursion/*Print in reverse*/(char *s)
       s[i] = s[letra - i - 1];
       s[letra - i - 1] = temp;
     }
+  putchar (temp);
 }

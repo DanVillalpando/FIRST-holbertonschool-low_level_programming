@@ -1,10 +1,22 @@
 #include <stdio.h>
 #include "main.h"
 
+int primeN(int n, int i);
+
 int is_prime_number(int n)
 {
-  int i = 0;
+  return (primeN(n, 1));
+}
 
-  if (n / i)
-    return (
+int primeN(int n, int i)
+{
+  int prime = i;
+
+  if (prime % i == 0)
+    return (0);
+
+  if (prime == n)
+    return (i);
+
+  return (primeN(n, i + 1));
 }
