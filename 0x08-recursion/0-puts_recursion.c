@@ -1,14 +1,15 @@
 #include <stdio.h>
 #include "main.h"
 
-void _puts_recursion(char *s)
+void _puts_recursion/*Puts*/(char *s)
 {
-	int i = 0;
-
-	while (s[i] != '\0')
-	  {
-	    putchar (s[i]);
-	    i++;
-	  }
-	putchar ('\n');
+if (s[0] != '\0')
+  {
+	putchar(s[0]);
+	_puts_recursion(s + 1);
+	}
+	  else
+	    {
+	      putchar('\n');
+	    }
 }
