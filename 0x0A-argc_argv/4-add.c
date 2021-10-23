@@ -6,20 +6,17 @@ int main/*Arguments multiplication*/(int argc, char *argv[])
 int i = 0;
 int sum = 0;
 
-if (argv[i] == 0)
-    printf("0\n");
-
- for (i = 1; i < argc; i++)
+ if (argc > 1)
    {
-     if (argv[i] >= 'a' || argv[i] <= 'z')
-       {
-	 printf("Error\n");
-       }
-     else
+     for (i = 1; i < argc; i++)
        {
 	 sum += atoi(argv[i]);
-	 printf("%d\n", sum);
        }
+	   printf("%d\n", sum);
+	   if (argc == 0)
+	     {
+	       printf("0\n");
+	     }
    }
 return (0);
 }
