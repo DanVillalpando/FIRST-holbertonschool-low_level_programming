@@ -1,0 +1,9 @@
+#ifndef __HEADER__
+#define __HEADER__
+/*First struct*/struct/*Dog info*/ dog
+{
+char *name;
+float age;
+char *owner;
+};
+#endif
