@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /***
-*First struct
+*struct First struct
+*@dog Name of the struct
 *Dog info
-*/
-struct dog
+*/ struct/*g*/ dog
 {
 char *name;
 float age;
