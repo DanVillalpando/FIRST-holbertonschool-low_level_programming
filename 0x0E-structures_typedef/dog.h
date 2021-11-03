@@ -2,7 +2,11 @@
 #define __HEADER__
 #include <stdio.h>
 
-/*First struct*/struct/*Dog info*/ dog
+/***
+*First struct
+*Dog info
+*/
+struct dog
 {
 char *name;
 float age;
