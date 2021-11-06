@@ -1,15 +1,22 @@
 #include <stdio.h>
 #include "variadic_functions.h"
+#include <stdarg.h>
 
 int sum_them_all(const unsigned int n, ...)
 {
-  unsigned int n;
-  int suma, i;
-  
+  unsigned int i;
+  int suma;
+  va_list sumat;
+
+  va_start(sumat, n);
   if (n == 0)
     return (0);
-  for(i=0; i<n; i++)
+  i = 0;
+  while (i < n)
     {
-      suma = suma + n[i];
-    }   
+      suma = suma + va_arg(sumat, int);
+      i++;
+    }
+  va_end(sumat);
+  return (suma);
 }
