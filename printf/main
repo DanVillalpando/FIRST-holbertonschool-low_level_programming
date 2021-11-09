@@ -1,0 +1,8 @@
+#include <stdio.h>
+#include "main.h"
+
+int main()
+{
+  printf("El printf de la libreria estandar %i %i\n", 10, 15);
+  _printf("Mi printf ", 10, 15);
+}

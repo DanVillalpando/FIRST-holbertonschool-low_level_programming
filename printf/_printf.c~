@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdarg.h>
+#include "main.h"
+
+/***Ejemplo que nos dio Lalo*/
+int _printf(const char *format, ...)
+{
+  int n = 2;
+  int i = 0;
+
+  while (format[i] != '\0')
+    {
+      putchar(mensaje[i]);
+      i++;
+    }
+  va_list argPointer;
+  va_start(argPointer, n);
+  for (i = 0; i < n; i++)
+    {
+      printf("%i", va_arg(argPointer, int));
+    }
+  va_end(argPointer);
+  putchar("\n");
+}
