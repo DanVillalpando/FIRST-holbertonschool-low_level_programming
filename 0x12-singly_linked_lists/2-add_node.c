@@ -2,33 +2,32 @@
 #include <string.h>
 #include "lists.h"
 /***
- *Add a new node at the beginning of a list_t
+ *Count string length
  *
+ */int _strlen(const char *s)
+{
+int i;
+
+i = 0;
+while (s[i] != '\0')
+{
+i++;
+}
+return (i);
+}
+/***
+ *Add a new node at the beginning of a list_t
  */list_t *add_node(list_t **head, const char *str)
 {
-char *dd;
-int i;
-list_t *NewNode;
+list_t *newNode;
 
-NewNode = malloc(sizeof(list_t));
-if (NewNode == NULL)
-{
+newNode = malloc(sizeof(list_t));
+
+if (newNode == NULL)
 return (NULL);
-}
-dd = strdup(str);
-if (dd == NULL)
-{
-free(NewNode);
-return (NULL);
-}
-for (i = 0; str[i];)
-i++;
-
-NewNode->str = dd;
-NewNode->i = i;
-NewNode->next = *head;
-
-*head = NewNode;
-
-return (NewNode);
+newNode->str = strdup(str);
+newNode->len = _strlen(str);
+newNode->next = *head;
+*head = newNode;
+return (*head);
 }
