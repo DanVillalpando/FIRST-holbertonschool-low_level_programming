@@ -1,0 +1,24 @@
+#include "lists.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+/***
+ *Prints all the elements of a list_t
+ *
+ */size_t print_list(const list_t *h)
+{
+size_t node = 0;
+while (h)
+{
+if (h->str == NULL)
+ putchar("[0]");
+ putchar("(nil)");
+ putchar(\n);
+else
+ putchar(h->len);
+putchar(h->str);
+node++;
+h = h->next;
+}
+return (node);
+}
