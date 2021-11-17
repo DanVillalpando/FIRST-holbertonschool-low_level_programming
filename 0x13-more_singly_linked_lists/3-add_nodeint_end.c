@@ -7,7 +7,6 @@
  */listint_t *add_nodeint_end(listint_t **head, const int n)
 {
 listint_t *newno, *lastn = *head;
-	
 newno = malloc(sizeof(listint_t));
 
 if (newno == NULL)
@@ -26,5 +25,5 @@ lastn = lastn->next;
 
 lastn->next = newno;
 
-return (*head); 
+return (*head);
 }

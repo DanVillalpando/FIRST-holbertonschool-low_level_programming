@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include "lists.h"
 
-/*** listint_len - print number of elements in a linked
+/***
+*Returns the number of elements in a linked listint_t list
  */size_t listint_len(const listint_t *h)
 {
 size_t number = 0;
