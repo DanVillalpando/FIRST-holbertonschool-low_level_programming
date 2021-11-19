@@ -5,8 +5,8 @@
 * to flip to get from one number to another.
  */unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-unsigned int i = 0;
-unsigned int numb = 0;
+unsigned long int i = 0;
+unsigned long int numb = 0;
 
 numb = n ^ m;
 while (numb > 0)
