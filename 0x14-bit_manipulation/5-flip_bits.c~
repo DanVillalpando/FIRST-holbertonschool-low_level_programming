@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include "main.h"
+/***
+ * Returns the number of bits you would need
+* to flip to get from one number to another.
+ */unsigned int flip_bits(unsigned long int n, unsigned long int m)
+{
+unsigned int i = 0;
+unsigned int numbers = 0;
+
+numbers = n ^ m;
+while (numbers > 0)
+{
+if ((numbers & 1) == 1)
+i++;
+numbers >>= 1;
+}
+return (i);
+
+}
