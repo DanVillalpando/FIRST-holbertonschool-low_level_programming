@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include "main.h"
-
-int get_bit(unsigned long int n, unsigned int index)
+/***
+ * Returns the value of a bit at a given index.
+*/int get_bit(unsigned long int n, unsigned int index)
 {
 unsigned int i = 0;
 

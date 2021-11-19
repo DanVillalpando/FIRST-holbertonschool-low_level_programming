@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include "main.h"
-
-int clear_bit(unsigned long int *n, unsigned int index)
+/***
+ * Sets the value of a bit to 0 at a given index.
+ */int clear_bit(unsigned long int *n, unsigned int index)
 {
 unsigned int valu = *n;
 
