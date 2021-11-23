@@ -12,7 +12,7 @@ int file;
 if (filename == NULL)
 return (-1);
 
-fd = open(filename, O_RDWR | O_CREAT | O_TRUNC, 0700);
+fd = open(filename, O_RDWR | O_CREAT | O_TRUNC, 0600);
 
 if (fd == -1)
 {
