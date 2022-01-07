@@ -2,7 +2,9 @@
 #include <stdlib.h>
 #include "lists.h"
 
-void free_dlistint(dlistint_t *head)
+/***
+ * Frees a list.
+ */void free_dlistint(dlistint_t *head)
 {
 	dlistint_t *temp = NULL;
 

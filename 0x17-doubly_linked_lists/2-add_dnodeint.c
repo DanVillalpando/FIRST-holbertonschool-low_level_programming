@@ -2,7 +2,9 @@
 #include <stdlib.h>
 #include "lists.h"
 
-dlistint_t *add_dnodeint(dlistint_t **head, const int n)
+/***
+ * Adds a new node at the beginning of a list.
+ */dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
 	dlistint_t *new_n;
 

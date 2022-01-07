@@ -2,7 +2,9 @@
 #include <stdlib.h>
 #include "lists.h"
 
-dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
+/***
+ * Returns the nth node of a linked list.
+ */dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
 	unsigned int i = 0;
 

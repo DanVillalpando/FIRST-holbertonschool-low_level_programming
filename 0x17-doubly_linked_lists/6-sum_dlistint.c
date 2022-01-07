@@ -2,7 +2,9 @@
 #include <stdlib.h>
 #include "lists.h"
 
-int sum_dlistint(dlistint_t *head)
+/***
+ * Returns the sum of all the data (n) of a linked list.
+ */int sum_dlistint(dlistint_t *head)
 {
 	int total = 0;
 
