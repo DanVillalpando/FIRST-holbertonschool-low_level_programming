@@ -3,9 +3,11 @@
 #include "hash_tables.h"
 
 /***
- * function that gives you the index of a key.
+ * key_index - function that returns the index of a key.
  * use the hash_djb2 function
- */unsigned long int key_index(const unsigned char *key, unsigned long int size)
+ * @key: The key, string
+ * @size: The size of the array
+*/unsigned long int key_index(const unsigned char *key, unsigned long int size)
 {
 	return (hash_djb2(key) % size);
 }
